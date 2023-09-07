@@ -1,10 +1,10 @@
-package metric
+package metrics
 
 import "context"
 
 // 模块名称
 const (
-	AppName = "metric"
+	AppName = "metrics"
 )
 
 // 获取MySQL监控指标服务接口

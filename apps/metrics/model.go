@@ -1,4 +1,4 @@
-package metric
+package metrics
 
 // MysqlResponse结构体
 type MysqlResponse struct {

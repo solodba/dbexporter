@@ -3,7 +3,7 @@ package impl
 import (
 	"database/sql"
 
-	"github.com/solodba/dbexporter/apps/metric"
+	"github.com/solodba/dbexporter/apps/metrics"
 	"github.com/solodba/dbexporter/conf"
 	"github.com/solodba/mcube/apps"
 )
@@ -19,7 +19,7 @@ type impl struct {
 
 // 实现Ioc中心Name方法
 func (i *impl) Name() string {
-	return metric.AppName
+	return metrics.AppName
 }
 
 // 实现Ioc中心Conf方法
