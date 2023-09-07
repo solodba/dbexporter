@@ -1,0 +1,17 @@
+[app]
+name = "dbexporter"
+
+[app.http]
+host = "127.0.0.1"
+port = 8880
+
+[MySQL]
+username = "root"
+password = "Root@123"
+host = "192.168.1.130"
+port = 3306
+db = "mysql"
+max_open_conn = 50
+max_idle_conn = 10
+max_life_time = 600
+max_idle_time = 300
